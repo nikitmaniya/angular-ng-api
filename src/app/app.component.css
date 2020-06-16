@@ -1,0 +1,31 @@
+.card p{
+   
+    font-size: 32px;
+    font-weight: 600;
+    padding: 2rem;
+ 
+}
+
+.book{
+    color: yellow;
+    background-color: green;
+    font-family: 'Times New Roman';
+    height: 50;
+}
+
+.house{
+    color: white;
+    background-color: black;
+    font-family: 'Times';
+    height: 50;
+}
+
+.characters{
+    color: black;
+    background-color: orange;
+    font-family: 'Courier';
+    height: 50;
+}
+
+
+
