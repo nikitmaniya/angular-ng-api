@@ -39,7 +39,6 @@ export class AppComponent {
       this.books= false ;
       this.characters = true  ;
     }
-    console.log("inside response",typevariable)
     this.http.getData(typevariable).subscribe((resp) => {
       console.warn(resp)
       this.apidata = resp;
@@ -58,22 +57,6 @@ export class AppComponent {
         return 'blue';
     }
   }
-
-
-  changevalue(valid){
-    this.isvalid=valid; 
-    console.log(valid)
-    console.log("angular")
-
-  }
-  
- 
-
-
- 
-
-
-
 
 }
 
